@@ -20,7 +20,7 @@ def merge(nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         i+=1
         k+=1
     while j<len(small_b):
-  
+        nums1[k]=small_b[j]
         j+=1
         k+=1 
 # Do not change the following corde
